@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller("${rootrootArtifactid}.EhraccountingController")
 @RequestMapping(value = "module/${rootArtifactid}/${rootArtifactid}.form")
-public class EhraccountingController {
+public class EhraccountingMainController {
 	
 	/** Logger for this class and subclasses */
 	protected final Log log = LogFactory.getLog(getClass());
